@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SIE Analyser</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <script src="ramda.min.js"></script>
+        <script src="jquery-1.12.4.min.js"></script>
+        <script src="client.js"></script>
+    </head>
+    <body>
+        <div id="left-area">
+            <span id="filename"></span>
+            <table>
+                <thead>
+                    <tr>
+                      <td>Record type</td>
+                      <td>Count</td>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                </tbody>
+            </table>
+        </div>
+        <div id="right-area">
+            <select size="15" id="list">
+            </select>
+            <br/>
+            <input type="button" id="remove-button" value="Remove selected"/><br/>
+            <div id="upload">
+                <span class="margin">Upload new file:</span><br/>
+                <input type="file" id="file-browser"/><br/>
+                <input type="button" id="upload-button" value="Upload file"/>
+            </div>
+        </div>
+    </body>
+</html>

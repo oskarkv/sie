@@ -1,0 +1,40 @@
+body {
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+table {
+    font-size: 14px;
+}
+
+thead {
+    font-weight: bold;
+}
+thead td {
+    padding-right: 10px;
+}
+
+input, .margin {
+    margin: 5px;
+}
+
+#left-area {
+    width: 55%;
+}
+
+#left-area textarea {
+    width: 100%;
+}
+
+#right-area {
+    width: 35%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#right-area select {
+    width: 70%;
+    margin: 5px;
+}
